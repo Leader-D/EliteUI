@@ -103,7 +103,7 @@ Core/Platform/Linux_win.zig            # opens X11 or Wayland window
 |---|---|
 | `XUI/Objects` | Prebuilt UI components |
 | `XUI/Events` | Mouse, keyboard, touch input |
-| `XUI/Keyfarmers` | Keyframe animation system |
+| `XUI/Keyfarmes` | Keyframe animation system |
 | `XUI/Medias` | Images and video rendering |
 | `XUI/Fonts` | Font rendering via MSDF |
 | `Core/Installer` | Comptime auto GPU and screen detection |
