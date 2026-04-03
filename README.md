@@ -68,15 +68,11 @@ ExtremeUI/
     ├── main.zig                # Engine entry point
     ├── Config.zig              # Global screen state and unit conversion
     ├── Window.zig              # User-facing window initializer
-    ├── Platform/
-    │   ├── Linux_win.zig       # X11 and Wayland window creation (auto-detected)
-    │   └── Vulkan_pip.zig      # Vulkan instance, device, and graphics pipeline
-    └── Shad-gines/
+    └──  Platform/
+        ├── Linux_win.zig       # X11 and Wayland window creation (auto-detected)
+        └── Vulkan_pip.zig      # Vulkan instance, device, and graphics pipeline
         └── SPIR-V/
-            ├── Runtime/
-            │   └── Engine.zig  # Builds SPIR-V bytecode at runtime
-            └── Comptime/
-                └── Engine.zig  # Planned: compile-time SPIR-V generation
+            └── Runtime.zig
 ```
 
 ---
