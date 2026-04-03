@@ -25,7 +25,7 @@ The user defines window settings once:
 const eui = @import("EliteUI");
 
 pub fn main() !void {
-    xui.window(.{
+    eui.window(.{
         .width  = 1280,
         .height = 720,
         .title  = "My App",
@@ -56,7 +56,7 @@ EliteUI/
 │
 ├── EUI/
 │   ├── Shapes/
-│   ├── customizations/
+│   ├── Customizations/
 │   └── Transformers/
 └── Core/
     ├── main.zig
