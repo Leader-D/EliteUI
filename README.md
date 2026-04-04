@@ -1,5 +1,5 @@
 # EliteUI
-![Framework logo](./src/eliteui.png)
+![Framework logo](./eliteui.png)
 > A Zig-native GUI framework powered by SDF rendering and SPIR-V shaders
 
 [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
